@@ -1,0 +1,43 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #091921;
+}
+
+.clock
+{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(clock.jpeg);
+	background-size: cover;
+	border: 5px solid #081751;
+	border-radius: 50%;
+	box-shadow: 0 -20px 20px rgba(255,255,255,0.05),
+				inset 0 -20px 20px rgba(255,255,255,0.05),
+				0 20px 20px rgba(255,255,255,0.05),
+				inset 0 20px 20px rgba(0,0,0,0.05);
+}
+
+.clock:before
+{
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	border-radius: 50%;
+	z-index: 10000;
+}

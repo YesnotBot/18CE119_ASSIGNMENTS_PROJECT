@@ -1,0 +1,38 @@
+h1   {color: brown;}
+
+p   {color: red;
+		font-family: Helvetica;
+  		font-size: 110%;
+  		border: 1px solid powderblue;
+  		padding: 2px;
+  	}
+  	
+ table{
+ 	border: 5px;
+ 	border-color:blue;  
+ 	align: center;
+ }
+
+
+ .intro{
+ 	border-bottom: 2px solid red;
+    margin-bottom: 40px;
+    outline: 2px solid white;
+ }
+
+ #name{
+ 	font-family: impact;
+ 	text-shadow: 5px #ff0000;
+ 	text-decoration: underline overline;
+ 	margin-left: 20%;
+ 	padding-top: 5px; 
+ }
+
+ #prepared{
+ 	font-family: tahoma;
+ 	font-size: 15px;
+ 	padding: 8px;
+    margin-bottom: 5%;
+    color: red;
+    text-decoration: underline; 	
+ }
